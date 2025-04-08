@@ -1,0 +1,98 @@
+// Copyright 2022 Indoc Research
+// 
+// Licensed under the EUPL, Version 1.2 or – as soon they
+// will be approved by the European Commission - subsequent
+// versions of the EUPL (the "Licence");
+// You may not use this work except in compliance with the
+// Licence.
+// You may obtain a copy of the Licence at:
+// 
+// https://joinup.ec.europa.eu/collection/eupl/eupl-text-eupl-12
+// 
+// Unless required by applicable law or agreed to in
+// writing, software distributed under the Licence is
+// distributed on an "AS IS" basis,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either
+// express or implied.
+// See the Licence for the specific language governing
+// permissions and limitations under the Licence.
+// 
+
+.home_footer_wrapper {
+  background: #003262;
+}
+.home_footer_content {
+  max-width: 1366px;
+  font-weight: 400;
+  margin: 0 auto;
+  color: #ffffff;
+  padding: 0 38px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 164px;
+}
+.home_footer_logos {
+  margin-top: 40px;
+  > p {
+    font-size: 12px;
+    line-height: 16px;
+    padding-left: 6px;
+    margin-top: 5px;
+    margin-bottom: 14px;
+  }
+}
+.link_logo {
+  margin-right: 48px;
+}
+.home_footer_links {
+  ul {
+    list-style: none;
+    margin: 68px 0 0;
+    li {
+      font-size: 14px;
+      margin-top: 7px;
+      margin-bottom: 8px;
+      line-height: 19px;
+      color: #ffffff;
+      list-style: none;
+    }
+  }
+}
+.home_footer_note {
+  border-top: 1px solid #ccc;
+  p {
+    font-weight: 400;
+    font-size: 13px;
+    color: #edf1f4;
+    line-height: 17px;
+  }
+}
+.home_footer_left {
+  ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    li {
+      color: #edf1f4;
+      margin-right: 20px;
+    }
+  }
+}
+.home_footer_right {
+  color: #edf1f4;
+  a {
+    display: inline-block;
+    color: #1890ff;
+  }
+  p {
+    display: inline-block;
+  }
+}
+.home_footer_note_content {
+  max-width: 1366px;
+  padding: 14px 38px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
